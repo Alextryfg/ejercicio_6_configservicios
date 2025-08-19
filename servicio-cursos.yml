@@ -19,7 +19,8 @@ eureka:
   instance:
     prefer-ip-address: true
     ip-address: 127.0.0.1
-    hostname: localhost
+    hostname: 192.168.0.23
+    non-secure-port: 8081
     instance-id: ${spring.application.name}:${server.port}
 
 server:
